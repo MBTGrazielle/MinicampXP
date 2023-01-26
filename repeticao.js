@@ -1,0 +1,60 @@
+//1º exemplo:
+// const idades = [15, 28, 90, 47, 2, 0]
+// let i = 0;
+
+// console.log("--------------------------------")
+// while (i <= 2) {
+//     console.log(idades[i])
+//     i++;
+// }
+// console.log("--------------------------------")
+// for (let numero = 0; numero <= 50; numero += 2) {
+//     console.log(numero);
+// }
+// console.log("--------------------------------")
+// const idadess = [15, 28, 90, 47, 2, 0]
+// for (let idade of idadess) {
+//     console.log(idade)
+// }
+
+//2º exemplo:
+// function inverterPalavra(palavra) {
+//     let palavraInvertida = "";
+//     for (let i = palavra.length - 1; i >= 0; i--) {
+//         palavraInvertida = palavraInvertida + palavra[i]
+//     }
+//     return palavraInvertida
+// }
+// console.log(inverterPalavra("abacate"));
+
+//3º exemplo:
+// let numeros = [19, 44, 85, 58, 23, 0];
+// function acharNumero(numero) {
+//     let existe = false;
+//     for (let i = 0; i < numeros.length; i++) {
+//         if (numeros[i] == numero) {
+//             existe = true;
+//             break;
+//         }
+//     }
+//     return existe
+// }
+
+// console.log(acharNumero(10));
+
+
+// var i = 0;
+
+// while (i < 10) {
+
+//     console.log("JavaScript");
+
+//     i++;
+
+// } 
+
+for (var i = 0; i < 10; i++) { 
+
+    console.log("teste"); 
+ 
+ } 
